@@ -28,7 +28,7 @@ def get_desired_csv(csv_files):
     print("File List")
     for i in range(len(csv_files)):
         print("{}. {}".format(i + 1, csv_files[i]))
-    print('Select file to train model')
+    print('Select file to train our model')
     return int(input("Enter your choice : ")) - 1
 
 
